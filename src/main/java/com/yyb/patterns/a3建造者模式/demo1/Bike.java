@@ -1,5 +1,6 @@
 package com.yyb.patterns.a3建造者模式.demo1;
 
+//产品类
 public class Bike {
 
     private String frame;

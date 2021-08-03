@@ -1,6 +1,6 @@
 package com.yyb.patterns.a3原型模式.demo;
 
-public class Realizetype  implements Cloneable{
+public class Realizetype implements Cloneable {
     public Realizetype() {
         System.out.println("构造了一个对象");
     }
@@ -8,6 +8,6 @@ public class Realizetype  implements Cloneable{
     @Override
     protected Realizetype clone() throws CloneNotSupportedException {
         System.out.println("完成了克隆");
-        return (Realizetype)super.clone();
+        return (Realizetype) super.clone();
     }
 }

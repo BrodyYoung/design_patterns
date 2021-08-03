@@ -1,5 +1,6 @@
 package com.yyb.patterns.a3建造者模式.demo1;
 
+//具体建造者类
 public class OfoBuilder extends Builder {
     @Override
     public void buildFrame() {
