@@ -1,5 +1,6 @@
 package com.yyb.patterns.a5适配器模式.类适配器模式;
 
+//目标接口
 public class TFCardImpl implements TFCard {
 
     @Override

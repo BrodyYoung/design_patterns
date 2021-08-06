@@ -1,5 +1,6 @@
 package com.yyb.patterns.a5适配器模式.类适配器模式;
 
+//定义适配器类（SD兼容TF）
 public class SDAdapterTF extends TFCardImpl implements SDCard {
 
     @Override
