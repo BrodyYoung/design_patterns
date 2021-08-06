@@ -1,5 +1,6 @@
 package com.yyb.patterns.a6装饰者模式;
 
+//具体构件角色-炒面类
 public class FriedNoodles extends FastFood {
 
     public FriedNoodles() {
@@ -10,6 +11,5 @@ public class FriedNoodles extends FastFood {
     public float cost() {
         return getPrice();
     }
-
 
 }

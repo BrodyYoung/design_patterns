@@ -1,6 +1,6 @@
 package com.yyb.patterns.a6装饰者模式;
 
-//抽象装饰者角色
+//抽象装饰角色-配料类
 public abstract class Garnish extends FastFood {
 
     private FastFood fastFood;

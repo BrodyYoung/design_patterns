@@ -1,6 +1,6 @@
 package com.yyb.patterns.a6装饰者模式;
 
-//抽象构建角色
+//抽象构件角色-快餐店类
 public abstract class FastFood {
 
     private float price;

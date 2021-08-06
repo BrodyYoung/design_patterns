@@ -1,10 +1,9 @@
 package com.yyb.patterns.a6装饰者模式;
 
-//具体装饰角色-鸡蛋类
-public class Egg extends Garnish {
-
-    public Egg(FastFood fastFood) {
-        super(1, "鸡蛋", fastFood);
+//具体装饰角色-火腿肠类
+public class Ham extends Garnish {
+    public Ham(FastFood fastFood) {
+        super(1.5F, "火腿肠", fastFood);
     }
 
     @Override

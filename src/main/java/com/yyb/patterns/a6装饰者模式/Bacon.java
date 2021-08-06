@@ -1,5 +1,6 @@
 package com.yyb.patterns.a6装饰者模式;
 
+//具体装饰角色-培根类
 public class Bacon extends Garnish {
 
     public Bacon(FastFood fastFood) {
@@ -13,6 +14,6 @@ public class Bacon extends Garnish {
 
     @Override
     public String getDesc() {
-        return super.getDesc()+getFastFood().getDesc();
+        return super.getDesc() + getFastFood().getDesc();
     }
 }
