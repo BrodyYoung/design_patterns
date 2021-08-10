@@ -1,9 +1,9 @@
-package com.yyb.patterns.a7桥接模式;
+package com.yyb.patterns.a7桥接模式.demo1;
 
 //扩展抽象化角色
-public class Windows extends OperatingSystem {
+public class Mac extends OperatingSystem {
 
-    public Windows(VideoFile videoFile) {
+    public Mac(VideoFile videoFile) {
         super(videoFile);
     }
 
